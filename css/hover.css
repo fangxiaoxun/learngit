@@ -1,0 +1,182 @@
+/* 伪类选择器hover的样式 */
+/* 头部导航 */
+header nav li>a:hover,
+header nav .drop li>a:hover,
+.top_nav .nav_left .cur_nav>a,
+.search_box .selcet_list li:hover span,
+.user .login_box a:hover,
+.sroll_nav .right .hot a:hover,
+.program .TVlist li:hover span,
+.program .prolist .rightBox li>a:hover,
+footer .info a:hover,.copyright .left a:hover{
+    color: #bf0614;
+}
+.top_nav .nav_left .language .lan:hover{
+    background-position: 0 -22px;
+}
+.top_nav .nav_left .AIGC:hover i{
+    background-position: 0 -80px;
+}
+.top_nav .nav_left .cur_nav i{
+    transform:rotate(180deg);
+    background-position: -53px 0;
+}
+
+.top_nav .nav_right .option:hover>a>i,.top_nav .nav_right .user:hover>a>i,.top_nav .nav_right .search:hover>a>i{
+    background-position-x: -20px;
+}
+/* 白色导航条 */
+.sroll_nav .menu_nav>li:hover>a,
+.sroll_nav ul>li>a:hover,
+.sroll_nav .sear_List .history .delete:hover>i,
+.sider li.cur>a,.sider li:hover>a,
+.main_nav .nav2 li>a:hover,
+.main_nav .movie h2 a:hover,
+.main_nav .movie li:hover h3,
+.topic_content .box a:hover,
+.live_guide .content li:hover::after,
+.live_guide .content li:hover p,
+.CCTV .hov_box h2 span:hover,
+.CCTV .hov_box p span:hover,
+.mov_wrap .hov_box a:hover,
+.highlight_wrap .top_title li:hover>a,
+.highlight_wrap .conLeft a:hover,
+.highlight_wrap .conRight .banCon a:hover,
+.highlight_wrap .column2 .conRight li .title:hover,
+.highlight_wrap .column1 .conBom li:hover .title{
+    color:#0084ff;
+}
+.sroll_nav .menu_nav>li:hover i{
+    transform:rotate(180deg);
+    background-image: url(../images/blue_arrow.png);
+}
+.sroll_nav .right .search-btn:hover{
+    background-color:#0084ff;
+    background-image: linear-gradient(to bottom right, #0084ff , #0062f0);
+}
+.sroll_nav .right .user_login:hover{
+    background-image: url(../images/user.ative.png);
+}
+.sroll_nav .sec_title>li:hover{
+    background-color: #fff;
+}
+
+.sroll_nav .sear_List .history .delete>i:hover{
+    background-position: 0 -16px;
+}
+.sroll_nav .sear_List .history_li>a:hover{
+    background-color:#0084ff;
+    color: #fff;
+}
+/* 搜素框 */
+.logo_box .close:hover{
+    background-position:  -40px -50px;
+}
+/* 侧边栏 */
+.sider li.cur>a,.sider li:hover>a{
+    background-image: url(../images/sidercur_sprites.png);
+}
+.sider .phone:hover .code{
+    display: block;
+    animation: phoneBox .3s ease-out forwards;
+}
+@keyframes phoneBox {
+    0%{
+        opacity: .5;
+        transform: scale(.5);
+        transform-origin:center right;
+    }
+    60%{
+        opacity: 1;
+        transform: scale(1);
+        transform-origin:center right;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+        transform-origin:center right;
+    }
+}
+/* 轮播图 */
+.swiper_container .live>li img:hover {
+    transform: scale(1.05);
+    transition:all 1s ease;
+}
+.swiper_container .live>li span:hover{
+    font-weight: bold;
+}
+/* 轮播图下的导航 */
+.main_nav .Pbox .Pcode{
+    display: none;
+    transform: translateY(-90px);
+}
+.main_nav .Pbox .Phone:hover~.Pcode,.main_nav .Pbox .Pcode:hover{
+    display: block;
+}
+/* 今日热门 */
+.topic_content .box img:hover{
+    transition:all 1s ease;
+    transform:matrix(1.05,0,0,1.05,0,0);
+}
+/* 直播导视 */
+.live_guide .left:hover{
+    background-position: 0 -24px;
+}
+.live_guide .left:hover a{
+    color: #fff;
+}
+.live_guide .right:hover span{
+    background-color:#0084ff;
+    color:#fff;
+}
+.live_guide .guide_content .btn>div:hover{
+    background-image: url(../images/Warrow.png);
+    background-color: #0084ff;
+}
+.live_guide .guide_content .btn .pro:hover{
+    background-color: #e5e5e5;
+}
+.live_guide .content li:hover::after,.live_guide .content li:hover p{
+    display: block;
+}
+
+/* 精品 */
+.block .cell1:hover{
+    background-image: url(../images/hov_bg.png);
+}
+.block .cell2:hover{
+    background-image: url(../images/hov_sbg.png);
+}
+/* 看点 */
+.highlight_wrap .top_title li:hover{
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgb(51 51 51 / 15%);
+}
+
+.highlight_wrap .conLeft .image img:hover{
+    transform: scale(1.05);
+}
+.highlight_wrap .conRight .banCon .all>a:hover{
+    background-image: url(../images/banarrowhov.png);
+}
+.highlight_wrap .column2 .conRight li .image:hover img:first-child{
+    display: none;
+}
+.highlight_wrap .column1 .conBom li:hover img{
+    transform: translateY(0);
+}
+/* 底部 */
+.copyright .left a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+

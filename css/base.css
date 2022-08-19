@@ -1,0 +1,109 @@
+/* 一些通用的样式 */
+*{
+    color: #222222;
+    box-sizing: content-box;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.center,.popups{
+    width: 962px;
+    margin: 0 auto;
+}
+.lazy{
+    background-image: none !important;
+}
+.drop_show{
+    pointer-events: auto !important;
+    z-index: 11!important;
+}
+.drop_shadow{
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 20%)!important;
+}
+.shadow{
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 30%);
+}
+.none{
+    display: none !important;
+}
+.hidden{
+    visibility: hidden !important;
+}
+/* js添加类名 */
+.sroll_nav .sec_drop .sec_title>li.cur>a{
+    background-color: #fff;
+    color:#0084ff;
+    font-weight: bold;
+}
+.disappear{
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+.swiper_wrap .right_side li.cur>a,.hot_play.cur,.recommend.cur{
+    font-weight: bold!important;
+    color:#0084ff!important;
+}
+.swiper_wrap .right_side .hot_play.cur{
+    background-position: -10px -32px ;
+}
+.swiper_wrap .right_side .recommend.cur{
+    background-position:  -10px -40px;
+}
+.main_nav .nav1>ul>li.ative{
+    border-radius: 34px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+}
+.main_nav .nav1 .ative>a{
+    color:#0084ff;
+}
+main .top_title{
+    position: relative;
+    display: flex;
+    padding-bottom: 10px;
+
+}
+main .top_title h1{
+    font-size: 26px;
+    line-height: 46px;
+    font-weight: bold;
+    color: #222;
+}
+.end1{
+    display: none;
+}
+.end2{
+    display: none;
+}
+.end3{
+    display:none;
+}
+.end1F{
+    display: none!important;
+}
+.end3F{
+    display: none!important;
+}
+/* 片库 */
+.mov_wrap .right a.hov{
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(51 51 51 / 15%);
+    color:#0084ff;
+}
+.program .TVlist li.click::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    bottom: 0;
+    background-color:#bf0614;
+}
+.program .TVlist li.click span{
+    color: #bf0614;
+}
+.remove{
+    padding:10px 0!important;
+}
